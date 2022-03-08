@@ -10,6 +10,7 @@ TagManager:
   - PlayerHolder
   - Vegetable
   - Spawner
+  - FruitCut
   layers:
   - Default
   - TransparentFX

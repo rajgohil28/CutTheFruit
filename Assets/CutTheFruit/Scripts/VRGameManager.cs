@@ -76,4 +76,8 @@ public class VRGameManager : MonoBehaviour
         Score = 0;
         ScoreText.text = Score.ToString();
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

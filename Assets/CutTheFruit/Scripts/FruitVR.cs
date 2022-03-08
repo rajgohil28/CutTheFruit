@@ -9,6 +9,7 @@ public class FruitVR : MonoBehaviour
     public float startForce = 18f;
     public float FruitLifeSpan = 5f;
 
+    bool IsSlicedByBlade = false;
     Rigidbody rb;
     private void Start()
     {
@@ -17,8 +18,9 @@ public class FruitVR : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Blade")                        //Detecting Blade Collision
+        if (other.tag == "Blade" && !IsSlicedByBlade)                        //Detecting Blade Collision
         {
+            IsSlicedByBlade = true;
             Vector3 direction = other.transform.position - transform.position;          //Determining Cut Direction
 
             Quaternion rotation = Quaternion.LookRotation(direction);                       //Feeding Cut direction Rotation Accordingly
