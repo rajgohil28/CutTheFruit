@@ -3358,6 +3358,18 @@ PrefabInstance:
       value: FruitSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 2395753429632179530, guid: 6f3a40baebff52f45817ea97f781138d, type: 3}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 5005780069073171317, guid: 2a6b7f46e47a5c64fac2389dd1fc1c25, type: 3}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
       propertyPath: SpawnPoints.Array.size
       value: 3
       objectReference: {fileID: 0}
