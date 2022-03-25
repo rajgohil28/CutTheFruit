@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
+
 public class VRGameManager : MonoBehaviour
 {
     public TMP_Text ScoreText;
@@ -79,5 +81,9 @@ public class VRGameManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void ChangeScene(string _sceneName)
+    {
+        SceneManager.LoadScene(_sceneName);
     }
 }

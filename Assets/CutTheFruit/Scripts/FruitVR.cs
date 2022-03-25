@@ -6,7 +6,7 @@ public class FruitVR : MonoBehaviour
 {
     public GameObject AfterCutPrefab;
     public GameObject CutParticleEffect;
-    public float startForce = 18f;
+    public float startForce = 6.5f;
     public float FruitLifeSpan = 5f;
 
     bool IsSlicedByBlade = false;

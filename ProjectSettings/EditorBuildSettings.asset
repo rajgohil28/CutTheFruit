@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CutTheFruit/Scenes/New Scene.unity
-    guid: ec70632fb76919e4e99b9e5c71fa07e3
+    path: Assets/CutTheFruit/Scenes/WelcomeScene.unity
+    guid: e2a4df00135f6ad4f9aa21d920d55819
+  - enabled: 1
+    path: Assets/CutTheFruit/Scenes/VRMainGameScene.unity
+    guid: 51bba997c43f6274292a78896ab2e222
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 39d9da8ea50709d4ab5b3f73cbe38250, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3654046a9dd3db749a8bf2eeebb563b1, type: 2}
