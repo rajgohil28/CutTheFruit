@@ -51,9 +51,14 @@ public class VRGameManager : MonoBehaviour
     public void GameOver()
     {
         GameObject[] Fruits = GameObject.FindGameObjectsWithTag("Fruit");
+        GameObject[] Vegetables = GameObject.FindGameObjectsWithTag("Vegetable");
         foreach (GameObject fruit in Fruits)
         {
             Destroy(fruit);
+        }
+        foreach (GameObject vegie in Vegetables)
+        {
+            Destroy(vegie);
         }
         foreach (XRInteractorLineVisual line in LineVisual)
         {
