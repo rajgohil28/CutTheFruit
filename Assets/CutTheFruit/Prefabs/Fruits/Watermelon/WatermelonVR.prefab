@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AfterCutPrefab: {fileID: 5393777336069863684, guid: e38613be2df93d54697602d1f37fa275, type: 3}
   CutParticleEffect: {fileID: 9047016271086569088, guid: b0d8f6745421c0f4daee23e5910ce9a3, type: 3}
-  startForce: 6.5
+  startForce: 8
   FruitLifeSpan: 5
 --- !u!54 &3046714284338736455
 Rigidbody:

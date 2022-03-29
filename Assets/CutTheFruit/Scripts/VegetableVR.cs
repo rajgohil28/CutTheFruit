@@ -11,15 +11,15 @@ public class VegetableVR : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        _vegetableAudio = GetComponent<AudioSource>();
         rb.AddForce(transform.forward * startForce, ForceMode.VelocityChange);
     }
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Blade")                        //Detecting Blade Collision
         {
-            _vegetableAudio.Play();
-            FindObjectOfType<VRGameManager>().GameOver();
+            VRGameManager vrmanager = FindObjectOfType<VRGameManager>();
+            vrmanager.LifeDeductAudio.Play();
+            vrmanager.GameOver();
         }
     }
 }

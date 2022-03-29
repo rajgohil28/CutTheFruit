@@ -29,7 +29,8 @@ public class FruitSpawnerVR : MonoBehaviour
             yield return new WaitForSeconds(delay);
 
             int spawnIndex = Random.Range(0, SpawnPoints.Length);
-            Instantiate(Fruits[Random.Range(0, Fruits.Length)], SpawnPoints[spawnIndex]);
+            GameObject spawnedFruit  = Instantiate(Fruits[Random.Range(0, Fruits.Length)], SpawnPoints[spawnIndex]);
+            spawnedFruit.transform.rotation = SpawnPoints[spawnIndex].rotation;
         }
     }
     public void StopSpawning()

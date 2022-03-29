@@ -14,6 +14,7 @@ public class FruitVR : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        //rb.AddForce(transform.forward * startForce, ForceMode.VelocityChange);
         rb.AddForce(transform.forward * startForce, ForceMode.VelocityChange);
     }
     private void OnTriggerEnter(Collider other)
