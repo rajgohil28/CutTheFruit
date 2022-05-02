@@ -2288,7 +2288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
       propertyPath: Fruits.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
       propertyPath: Fruits.Array.data[0]
@@ -2308,6 +2308,18 @@ PrefabInstance:
       objectReference: {fileID: 5005780069073171317, guid: 2a6b7f46e47a5c64fac2389dd1fc1c25, type: 3}
     - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
       propertyPath: Fruits.Array.data[4]
+      value: 
+      objectReference: {fileID: 2395753429632179530, guid: 6f3a40baebff52f45817ea97f781138d, type: 3}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.data[5]
+      value: 
+      objectReference: {fileID: 6543230025919024494, guid: d3d6d7a8a386e294e9dafcd9b75f8e90, type: 3}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.data[6]
+      value: 
+      objectReference: {fileID: 6543230025919024494, guid: d3d6d7a8a386e294e9dafcd9b75f8e90, type: 3}
+    - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
+      propertyPath: Fruits.Array.data[7]
       value: 
       objectReference: {fileID: 5444619598573153005, guid: 964e29b2c5e7d404d8f2316e3ee82fbf, type: 3}
     - target: {fileID: 7910116275583860793, guid: 7ff1f82d0f1e5c343b6d615404de5608, type: 3}
