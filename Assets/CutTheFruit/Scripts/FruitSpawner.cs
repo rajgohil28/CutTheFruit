@@ -35,6 +35,5 @@ public class FruitSpawner : MonoBehaviour
     public void StopSpawning()
     {
         StopCoroutine(SpawnFruits());
-    }
-    
+    }   
 }
